@@ -4,12 +4,10 @@ Simple Compiler & Imterpeter written in C#.
 ## Available operations
 Currently available basic math operations, i/o to console, if statement and for loops.
 
-## GRAMMAR
+## Grammar
 grammar PL17;
 
-/*
- * Parser Rules
- */
+### Parser rules
 main : 'main' DO_SECTION ;
 
 DO_SECTION : '{' STATEMENT_LIST '}' ;
@@ -40,9 +38,8 @@ STEP : ADD_EXPRESSION ;
 CONDITION : BOOL_EXPRESSION ;
 
 IF_STATEMENT : 'if' BOOL_EXPRESSION 'then' DO_SECTION 'fi' ( 'else' DO_SECTION ) ;
-/*
- * Lexer Rules
- */
+
+### Lexer rules
 fragment DIGIT : [0-9] ;
 fragment LETTER : [a-zA-Z] ;
 
