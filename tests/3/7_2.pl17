@@ -1,0 +1,5 @@
+main {
+    text t = 'text';
+    int i = 5;
+    bool b = t > i;
+}

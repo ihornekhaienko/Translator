@@ -1,0 +1,7 @@
+main {
+    int x = 1;
+    float y = read;
+    
+    int z = x ++ y;
+    write z;
+}

@@ -1,0 +1,7 @@
+main {
+    int i;
+    for i = 0 by i = i + 1 while i < 14 do
+    {
+        write i, '\n';
+    }
+}

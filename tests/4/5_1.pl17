@@ -1,0 +1,15 @@
+main {
+    int i = 0;
+    if i == 0 then
+    {
+        i = -5;
+        if i > 0 then 
+        {
+            write true;
+        } fi
+        else
+        {
+            write false;
+        }
+    } fi
+}

@@ -1,0 +1,8 @@
+main {
+    text t = 'test';
+    
+    if t == 'test' then 
+    {
+        write t;
+    } fi
+}

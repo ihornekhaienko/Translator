@@ -1,0 +1,12 @@
+main {
+    text t = read;
+    
+    if t == 'text' then 
+    {
+        write 'text';
+    } fi
+    else 
+    {
+        write 'false';
+    }
+}

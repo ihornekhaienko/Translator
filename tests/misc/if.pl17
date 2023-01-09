@@ -1,0 +1,6 @@
+main {
+	if x_1 > 0 then 
+    {
+        x = read;
+    } fi
+}

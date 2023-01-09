@@ -1,0 +1,4 @@
+main {
+	float f = 3;
+	int i = 10 / (f - 3);
+}

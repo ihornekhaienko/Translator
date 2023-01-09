@@ -1,0 +1,4 @@
+main {
+	float f = 88.41;
+	int i = f;
+}

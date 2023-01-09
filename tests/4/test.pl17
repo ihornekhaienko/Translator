@@ -1,0 +1,16 @@
+main {
+	int i;
+
+	write '1 for true\n';
+	int choice = read;
+	
+	if choice == 1 then
+	{
+		for i=0 by i=i+1 while i < 5 do 
+		{
+			write 'i = ', i, '\n';
+		}
+	} fi
+	
+	write 'end\n';
+}

@@ -1,0 +1,5 @@
+main {
+    int x, y;
+    float f = 20;
+    write x, y, f; 
+}

@@ -1,0 +1,10 @@
+main {
+    int i = read;
+    if i > 10 then
+    {
+        if i > 10 then
+        {
+            write i;
+         fi
+    } fi
+}

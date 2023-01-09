@@ -1,0 +1,14 @@
+main {
+	int r = read;
+	if r > 0 then
+	{
+		int i;
+		for i = 0 by i = i+1 while i < r do {
+			write i, '\n';
+		}
+	} fi
+	else
+	{
+		write r;
+	}
+}

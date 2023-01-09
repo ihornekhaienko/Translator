@@ -1,0 +1,3 @@
+main main{
+    float f = 14 + (88 * (i + x));
+}

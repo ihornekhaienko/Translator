@@ -1,0 +1,7 @@
+main {
+        int x = 14;
+        if x !> 28 then
+        {
+             write ‘true;
+        } fi
+}

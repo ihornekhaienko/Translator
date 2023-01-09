@@ -1,0 +1,6 @@
+main {
+	if 10 > 1 then
+	{
+		write 'true';
+	fi
+}

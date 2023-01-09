@@ -1,0 +1,4 @@
+main {
+    text str = 'text for test
+    write str;
+}

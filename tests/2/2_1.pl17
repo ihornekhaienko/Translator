@@ -1,0 +1,17 @@
+main {
+    int n = read;
+    for i=0 by i=i+1 while i<10 do
+    {
+        for j=0 by j=j+1 while j<10 do
+        {
+            if j > n then
+            {
+                write j;
+            }} fi
+        }
+        if i > n then
+        {
+            write i;
+        } fi
+    }
+}

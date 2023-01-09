@@ -1,0 +1,4 @@
+main {
+    int n, x_1;
+    text t = 'text for test';
+}

@@ -1,0 +1,6 @@
+main {
+	bool b1 = true;
+	bool b2 = false;
+	
+	bool b3 = b1 - b2;
+}

@@ -1,0 +1,14 @@
+main {
+    int i, j, k;
+    float f = 5;
+    
+    for i = 0 by i = i + 1 while i < 10 do 
+    {
+	    write 'i = ', i, '\n';
+        for j = i by j = j + 1 while j < 20 do
+        {
+            write 'j = ', j,'\n';
+        }
+		write '\n';
+    }
+}
